@@ -1,20 +1,23 @@
 /*stylesheet*//*stylesheet*/
 
 body {
-	margin: 20px;	
-	background: black;
-	color: black;
-	font-family: 'Helvetica', sans-serif;
-	font-weight: 200;
+	margin: 20px;
+	background-image: url(../images/skypexels.jpg);
+	background-color: black;
+	color: white;
+	font-family: 'Inconsolata', regular;
+	font-weight: 400;
+ 
+	
 }
 
 h1, h2, h3, h4, p {
-	margin-top: 0;
+	margin-top: 0em;
 	margin-bottom: 1em;
 }
 
 h1, h2 {
-	font-weight: 600;
+	font-weight: 400;
 }
 
 
@@ -24,8 +27,8 @@ h1, h2 {
 }
 
 #main {
-	background: tan;
-	margin: 2em;
+	background: transparent;
+	margin: 4em;
 	padding: 2em;
 }
 
@@ -51,7 +54,7 @@ h1, h2 {
 }
 
 #content {
-	background: tan;
+	background: black;
 }
 
 #nav ul {
@@ -62,6 +65,11 @@ h1, h2 {
 
 #nav li {
 	margin-bottom: 1em;
+}
+
+img.resize {
+  width:780px;
+  height:520px;
 }
 
 
