@@ -4,6 +4,7 @@ body {
 	margin: 20px;
 	background-image: url(../images/skypexels.jpg);
 	background-color: black;
+	background-size: cover;
 	color: white;
 	font-family: 'Inconsolata', regular;
 	font-weight: 400;
@@ -33,7 +34,7 @@ h1, h2 {
 }
 
 #sidebar {
-	background: transparent;
+	background: tan;
 }
 
 #logo {
@@ -65,6 +66,15 @@ h1, h2 {
 
 #nav li {
 	margin-bottom: 1em;
+}
+
+#nav li a {
+	color: white;
+}
+
+#nav li a:hover {
+	color: brown;
+	text-decoration: none;
 }
 
 img.resize {
