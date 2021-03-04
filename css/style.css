@@ -34,9 +34,8 @@ h1, h2 {
 }
 
 #sidebar {
-	background: tan;
-  	background: rgba(76, 175, 80, 0.3) /* Green background with 30% opacity */
-}
+	background: transparent;
+  
 }
 
 
@@ -74,7 +73,7 @@ h1, h2 {
 }
 
 #nav li a {
-	color: white;
+	color: black;
 }
 
 #nav li a:hover {
