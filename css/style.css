@@ -2,10 +2,10 @@
 
 body {
 	margin: 20px;
-	background-image: url(../images/skypexels.jpg);
+	background-image: url(../images/cloudspexels.jpg);
 	background-color: black;
 	background-size: cover;
-	color: white;
+	color: black;
 	font-family: 'Inconsolata', regular;
 	font-weight: 400;
  
@@ -35,7 +35,11 @@ h1, h2 {
 
 #sidebar {
 	background: tan;
+  	background: rgba(76, 175, 80, 0.3) /* Green background with 30% opacity */
 }
+}
+
+
 
 #logo {
 	padding: 3em 0;
@@ -48,6 +52,7 @@ h1, h2 {
 #logo img, .item img {
 	width: 100%;
 	height: auto;
+
 }
 
 .item img {
@@ -55,13 +60,13 @@ h1, h2 {
 }
 
 #content {
-	background: black;
+	background: transparent;
 }
 
 #nav ul {
   list-style: none;
-  padding-left: 0;
-  margin: 0
+  padding-left: 2em;
+  margin: 0;
 }
 
 #nav li {
