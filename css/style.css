@@ -6,8 +6,8 @@ body {
 	background-color: black;
 	background-size: cover;
 	color: black;
-	font-family: 'Inconsolata', regular;
-	font-weight: 400;
+	font-family:'Spartan', sans-serif;
+	font-weight: 500;
  
 	
 }
@@ -18,7 +18,7 @@ h1, h2, h3, h4, p {
 }
 
 h1, h2 {
-	font-weight: 400;
+	font-weight: 600;
 }
 
 
@@ -28,7 +28,7 @@ h1, h2 {
 }
 
 #main {
-	background: transparent;
+	background: rgba(0,0,0,0.4);
 	margin: 4em;
 	padding: 2em;
 }
@@ -64,7 +64,7 @@ h1, h2 {
 
 #nav ul {
   list-style: none;
-  padding-left: 2em;
+  padding-left: 0em;
   margin: 0;
 }
 
@@ -74,11 +74,67 @@ h1, h2 {
 
 #nav li a {
 	color: black;
+	transition: all .3s ease-in-out;
 }
 
 #nav li a:hover {
-	color: brown;
+	color: lightpink;x
 	text-decoration: none;
+}
+
+
+#exquisite {
+	position: relative;
+	margin-bottom: 2em;
+}
+#exquisite .grid {
+		grid-gap: 0;
+}
+
+#exquisite .grid img {
+	margin-bottom: 0;
+}
+
+#projects {
+	margin-bottom: 2em;
+}
+
+#projects .grid-item {
+	position: relative;
+}
+
+#projects .grid-item img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#projects .grid-item .overlay {
+	transition: all .3s ease-in-out;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0,4);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#projects .grid-item:hover .overlay {
+	opacity: 1;
+}
+
+#projects .grid-item .overlay .project-title h3 {
+	margin-bottom: 0;
+}
+
+body.p1 {
+	background-color: blue;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 
@@ -89,7 +145,7 @@ h1, h2 {
 
 	#main {
 		margin: 1em;
-		#padding: 0em;
+		padding: 0em;
 	}
 
 	#logo {
@@ -105,6 +161,8 @@ h1, h2 {
 	#nav li {
 		display: inline;
 		padding: .25em;
-		background: purple;
+		background: white;
 		margin-bottom: 0;
 	}
+}
+
