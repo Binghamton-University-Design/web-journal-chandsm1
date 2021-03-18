@@ -28,7 +28,7 @@ h1, h2 {
 }
 
 #main {
-	background: rgba(0,0,0,0.4);
+	background: rgba(0,128,128,0.2);
 	margin: 4em;
 	padding: 2em;
 }
@@ -42,6 +42,8 @@ h1, h2 {
 
 #logo {
 	padding: 3em 0;
+
+
 }
 
 #logo h1 {
@@ -51,6 +53,7 @@ h1, h2 {
 #logo img, .item img {
 	width: 100%;
 	height: auto;
+
 
 }
 
@@ -129,6 +132,7 @@ h1, h2 {
 
 #projects .grid-item .overlay .project-title h3 {
 	margin-bottom: 0;
+	color: lightpink;
 }
 
 body.p1 {
