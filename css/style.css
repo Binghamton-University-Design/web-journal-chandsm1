@@ -165,7 +165,7 @@ body.p1 {
 	#nav li {
 		display: inline;
 		padding: .25em;
-		background: white;
+		background: transparent;
 		margin-bottom: 0;
 	}
 }
