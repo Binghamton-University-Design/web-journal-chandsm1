@@ -88,15 +88,17 @@ h1, h2 {
 
 #exquisite {
 	position: relative;
-	margin-bottom: 2em;
+	margin-bottom: 0em;
 }
+
+#exquisite img {
+	margin-bottom: 0;
+}
+
 #exquisite .grid {
 		grid-gap: 0;
 }
 
-#exquisite .grid img {
-	margin-bottom: 0;
-}
 
 #projects {
 	margin-bottom: 2em;
